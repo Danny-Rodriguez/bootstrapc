@@ -12,7 +12,7 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
       <div class="container">
         <a href="#" class="navbar-brand">Frontend Bootcamp</a>
 
@@ -65,7 +65,7 @@
     <!-- Boxes -->
     <section class="p-5">
       <div class="container">
-        <div class="row text-center">
+        <div class="row text-center g-4">
           <div class="col-md">
             <div class="card bg-dark text-light">
               <div class="card-body text-center">
@@ -100,6 +100,93 @@
                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum officia molestiae numquam asperiores assumenda odio.</p>
                 <a href="#" class="btn btn-primary">Read More</a>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Learn Sections -->
+    <section id="learn" class="p-5">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md">
+            <img src="img/undraw_static_assets_rpm6.svg" class="img-fluid" alt="" />
+          </div>
+          <div class="col-md p-5">
+            <h2>Get a good start with the Foundations</h2>
+            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error magnam modi pariatur nihil facilis voluptatibus.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut mollitia tempore ratione voluptate eligendi nesciunt nihil animi, facere, nobis necessitatibus quam harum alias laudantium aliquam quia dolore corrupti tenetur ipsa.</p>
+            <a href="#" class="btn btn-light mt-3"> <i class="bi bi-chevron-right"></i> Read More </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="learn" class="p-5 bg-dark text-light">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md p-5">
+            <h2>Learn the most used Javascript frameworks!</h2>
+            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error magnam modi pariatur nihil facilis voluptatibus.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut mollitia tempore ratione voluptate eligendi nesciunt nihil animi, facere, nobis necessitatibus quam harum alias laudantium aliquam quia dolore corrupti tenetur ipsa.</p>
+            <a href="#" class="btn btn-light mt-3"> <i class="bi bi-chevron-right"></i> Read More </a>
+          </div>
+          <div class="col-md">
+            <img src="img/undraw_javascript_frameworks_-8-qpc.svg" class="img-fluid" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Question Accordion-->
+    <section id="questions" class="p-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+        <div class="accordion accordion-flush" id="questions">
+          <!-- Item 1 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-one">Where is Frontend Bootcamp located?</button>
+            </h2>
+            <div id="question-one" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#questions">
+              <div class="accordion-body">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus nam sequi temporibus architecto voluptas natus ea veritatis accusamus fugiat optio, ab obcaecati modi numquam ad. Officiis pariatur rerum aut at impedit minus deserunt quibusdam iste dignissimos sed. Molestiae temporibus voluptatem quasi, corrupti totam omnis harum. Impedit autem nihil porro! Maxime!</div>
+            </div>
+          </div>
+          <!-- Item 2 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-two">How much is the tuition?</button>
+            </h2>
+            <div id="question-two" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#questions">
+              <div class="accordion-body">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus nam sequi temporibus architecto voluptas natus ea veritatis accusamus fugiat optio, ab obcaecati modi numquam ad. Officiis pariatur rerum aut at impedit minus deserunt quibusdam iste dignissimos sed. Molestiae temporibus voluptatem quasi, corrupti totam omnis harum. Impedit autem nihil porro! Maxime!</div>
+            </div>
+          </div>
+          <!-- Item 3 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-three">What do I need to do to prepare?</button>
+            </h2>
+            <div id="question-three" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#questions">
+              <div class="accordion-body">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus nam sequi temporibus architecto voluptas natus ea veritatis accusamus fugiat optio, ab obcaecati modi numquam ad. Officiis pariatur rerum aut at impedit minus deserunt quibusdam iste dignissimos sed. Molestiae temporibus voluptatem quasi, corrupti totam omnis harum. Impedit autem nihil porro! Maxime!</div>
+            </div>
+          </div>
+          <!-- Item 4 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-four">What is the enrollment process?</button>
+            </h2>
+            <div id="question-four" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#questions">
+              <div class="accordion-body">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus nam sequi temporibus architecto voluptas natus ea veritatis accusamus fugiat optio, ab obcaecati modi numquam ad. Officiis pariatur rerum aut at impedit minus deserunt quibusdam iste dignissimos sed. Molestiae temporibus voluptatem quasi, corrupti totam omnis harum. Impedit autem nihil porro! Maxime!</div>
+            </div>
+          </div>
+          <!-- Item 5 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-five">Is there job placement assistance?</button>
+            </h2>
+            <div id="question-five" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#questions">
+              <div class="accordion-body">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus nam sequi temporibus architecto voluptas natus ea veritatis accusamus fugiat optio, ab obcaecati modi numquam ad. Officiis pariatur rerum aut at impedit minus deserunt quibusdam iste dignissimos sed. Molestiae temporibus voluptatem quasi, corrupti totam omnis harum. Impedit autem nihil porro! Maxime!</div>
             </div>
           </div>
         </div>
